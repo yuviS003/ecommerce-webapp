@@ -5,4 +5,35 @@ body {
   margin: 0;
   padding: 0;
 }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
 
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+*::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+*::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+*::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, 0.359);
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 8px;
+}

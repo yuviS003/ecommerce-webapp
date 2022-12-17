@@ -9,6 +9,7 @@ import Lander from './pages/Lander/Lander';
 import Offers from './pages/Offers/Offers';
 import Sale from './pages/Sale/Sale';
 import Contact from './pages/Contact/Contact';
+import Cart from './pages/Cart/Cart';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route exact path="/offers" element={<Offers />} />
         <Route exact path="/sale" element={<Sale />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/checkout" element={<Cart />} />
       </Routes>
     </Router>
 
