@@ -4,7 +4,7 @@ import NavLogo from '../../assets/nav-logo_preview_rev_1.png'
 
 export default function Navbar() {
     return (
-        <nav className='h-[70px] flex items-center justify-between border-gray-400 border-b sticky top-0 w-full pl-2 pr-10 bg-white'>
+        <nav className='h-[70px] flex items-center justify-between border-gray-400 border-b sticky top-0 w-full pl-2 pr-10 bg-white z-[9999]'>
             <div className="max-h-fit max-w-fit flex items-center cursor-pointer">
                 <img src={NavLogo} alt="navLogo" className="w-[50px]" />
                 <span className="text-xl mx-1 ml-2 tracking-widest font-semibold">SHOPOHOLIC</span>

@@ -14,7 +14,7 @@ export default function Lander() {
         <span className="text-4xl font-medium">Be YOU...</span>
         <span className="text-9xl font-semibold">Be <i>SHOPOHOLIC!</i></span>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 z-[900]">
         <AllProducts />
       </div>
     </>
